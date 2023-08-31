@@ -1,0 +1,45 @@
+.footer {
+  background: #f6f6f6;
+  padding-bottom: 144px;
+  &__sub {
+    width: 189.291px;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 150%;
+    text-transform: capitalize;
+  }
+  &__name {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+  }
+  &__list--title {
+    width: 102.068px;
+    height: 26px;
+    flex-shrink: 0;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27.5px;
+    text-transform: capitalize;
+    margin-bottom: 32px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    margin-top: 105px;
+  }
+  &__box {
+    margin-top: 105px;
+  }
+  &__item {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 100%;
+    text-transform: capitalize;
+    margin-bottom: 24px;
+  }
+}

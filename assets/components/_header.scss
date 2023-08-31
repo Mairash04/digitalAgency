@@ -1,0 +1,23 @@
+.header {
+  &__content {
+    margin-bottom: 97px;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list {
+    display: flex;
+    justify-content: flex-end;
+  }
+  li {
+    margin-right: 44px;
+    color: #272d38;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  &__logo {
+    color: #272d38;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
